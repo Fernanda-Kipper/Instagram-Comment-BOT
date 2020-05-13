@@ -12,22 +12,23 @@ comment = ""  # last but not least, inside this quotation marks you should write
 # bellow here, insert the path way to the Gecko driver that you had install, including .exe file
 driver = webdriver.Firefox(executable_path=r'path\to\your\geckodriver.exe')
 driver.implicitly_wait(5)  # waiting 5 seconds to load
+initializingTheBrowser()
 
-def initialingTheBrowser():
+def initializingTheBrowser():
     driver.get('https: put here the instagram post link')  # link of the post ypu want to interact
     sleep(5)  # waiting 5 seconds to load the page
-    login()
+    login(username,password)
 
-def login():
+def login(username, password):
     # after successfully loading the web page, the bot will start login in
     driver.find_element_by_css_selector('button.L3NKy').click()
     driver.find_element_by_css_selector("input[name='username']").send_keys(username)
     driver.find_element_by_css_selector("input[name='password']").send_keys(password)
     driver.find_element_by_css_selector('div.Igw0E:nth-child(4) > button:nth-child(1)').click()
     sleep(5)  # waiting 5 seconds to load the page
-    commenting()
+    commenting(comment)
 
-def commenting():
+def commenting(comment):
     # after successfully login in, the bot will start commenting, infinite loop, to stop, just close the page to stop
     while True:
         driver.find_element_by_css_selector('._15y0l > button:nth-child(1)').click()
