@@ -8,6 +8,7 @@ from time import sleep
 username = ""  # inside the quotation marks you need to write your username
 password = ""  # here you write you password
 comment = ""  # last but not least, inside this quotation marks you should write the content of your comment
+instagram_link = 'https: insert here the instagram post link'
 
 # bellow here, insert the path way to the Gecko driver that you had install, including .exe file
 driver = webdriver.Firefox(executable_path=r'path\to\your\geckodriver.exe')
@@ -37,13 +38,13 @@ def login(username, password):
     sleep(5)  # waiting 5 seconds to load the page
     commenting(comment)
 
-def initializingTheBrowser():
-    driver.get('https: put here the instagram post link')  # link of the post ypu want to interact
+def initializingTheBrowser(link):
+    driver.get(link)  # link of the post you want to interact
     sleep(5)  # waiting 5 seconds to load the page
     login(username, password)
 
 if __name__ == '__main__':
-    initializingTheBrowser()
+    initializingTheBrowser(instagram_link)
     #initializing the program
 
 
