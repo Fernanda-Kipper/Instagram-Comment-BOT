@@ -1,4 +1,4 @@
-# first of all, to run this bot, you need to install Selenium (try: pip install selenium)
+# First of all, to run this bot, you need to install Selenium (try: pip install selenium)
 # after that, you must have firefox browser installed in your pc
 # then, install firefox webdriver (Gecko Driver) -> https://github.com/mozilla/geckodriver/releases
 
@@ -17,7 +17,7 @@ driver.implicitly_wait(5)  # waiting 5 seconds to load
 
 #bot time to work:
 
-def commenting(comment):
+def Commenting(comment):
     # after successfully login in, the bot will start commenting, infinite loop, to stop, just close the page to stop
     while True:
         driver.find_element_by_css_selector('._15y0l > button:nth-child(1)').click()
@@ -29,22 +29,22 @@ def commenting(comment):
 after insert the code above (the one inside of the while, responsible to comment) and then, outside the FOR LOOP, add:
 driver.close()"""
 
-def login(username, password):
+def Login(username, password):
     # after successfully loading the web page, the bot will start login in
     driver.find_element_by_css_selector('button.L3NKy').click()
     driver.find_element_by_css_selector("input[name='username']").send_keys(username)
     driver.find_element_by_css_selector("input[name='password']").send_keys(password)
     driver.find_element_by_css_selector('div.Igw0E:nth-child(4) > button:nth-child(1)').click()
     sleep(5)  # waiting 5 seconds to load the page
-    commenting(comment)
+    Commenting(comment)
 
-def initializingTheBrowser(link):
+def InitializingTheBrowser(link):
     driver.get(link)  # link of the post you want to interact
     sleep(5)  # waiting 5 seconds to load the page
-    login(username, password)
+    Login(username, password)
 
 if __name__ == '__main__':
-    initializingTheBrowser(instagram_link)
+    InitializingTheBrowser(instagram_link)
     #initializing the program
 
 
