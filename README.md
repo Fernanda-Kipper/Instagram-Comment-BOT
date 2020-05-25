@@ -1,4 +1,4 @@
-# Instagram-Comment-BOT---Python-version
+# Instagram comment BOT
 This Instagram bot was developed by Fernanda Kipper with the following technologies:
 
 [Python](https://www.python.org/)
