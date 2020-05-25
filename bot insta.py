@@ -18,7 +18,7 @@ driver.implicitly_wait(5)  # waiting 5 seconds to load
 #bot time to work:
 
 def Commenting(comment):
-    # after successfully login in, the bot will start commenting, infinite loop, to stop, just close the page to stop
+    # after successfully login in, the bot will start commenting, infinite loop, to stop, just close the web page.
     while True:
         driver.find_element_by_css_selector('._15y0l > button:nth-child(1)').click()
         driver.find_element_by_css_selector('.Ypffh').send_keys(comment)
