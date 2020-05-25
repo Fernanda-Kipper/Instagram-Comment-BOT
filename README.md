@@ -11,7 +11,7 @@ This Instagram bot was developed by Fernanda Kipper with the following technolog
 
 ## :warning: Prerequisites
 
-In order to use this bot on your computer, you should already have Python installed in your computer, the libriraties mentioned above, Geckodriver and the Firefox web browser .
+In order to use this bot on your computer, you should already have Python installed in your computer, the libriraties mentioned above, Geckodriver and the Firefox web browser as well.
 
 ## :information_source: How To Use
 You can download the script if you want to and run in your computer, or simply copy (open source priveleges). Just follow the instructions inside the script and you are going to have the expected result.
