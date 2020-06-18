@@ -1,5 +1,5 @@
-# Instagram comment BOT
-This Instagram bot was developed by Fernanda Kipper with the following technologies:
+# Selenium web BOT
+This bot has the o objective to train the usages of Selenium Module, to this, i made him to follow up the all the accounts of an main account (we pass the link of the main account to him, and after successfully login, he follows all the followers of this account).It was developed with the following technologies:
 
 [Python](https://www.python.org/)
 
@@ -18,6 +18,6 @@ You can download the script if you want to and run in your computer, or simply c
 
 ## :information_source: Functions and Parameters
 All web functions used on this bot are from Selenium module, for more informations read (https://www.selenium.dev/documentation/en/).
-As parameter were used css selector, achieved through the inspect mode on the Instagram page. The other 3 functions (Login, Commenting and InitializingtheBrowser) were used to make the code more readable and easy to follow up.
+As parameter were used css selector, achieved through the inspect mode on the Instagram page. The other 3 functions (Login, Following and InitializingtheBrowser) were used to make the code more readable and easy to follow up.
 
 Hope you enjoy :) 
