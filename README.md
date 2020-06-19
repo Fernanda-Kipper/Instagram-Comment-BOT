@@ -1,5 +1,5 @@
 # Selenium web BOT
-This bot has the o objective to train the usages of Selenium Module, to this, i made him to follow up the all the accounts of an main account -- it works with instagram, but you can reformulate it to do this in whatever social network you want-- To do this, we pass as an input the link of the main account to him, and after successfully login, he follows all the followers of this account. It was developed with the following technologies:
+I build this bot with the objective to train the usages of Selenium Module, to do this, i give to him the instructions to follow up the all the accounts of an main account -- it works with instagram, but you can reformulate it to do this in whatever social network you want-- To do this, we pass as an input the link of the main account to him, and after successfully login, he follows all the followers of this account. It was developed with the following technologies:
 
 [Python](https://www.python.org/)
 
@@ -11,7 +11,7 @@ This bot has the o objective to train the usages of Selenium Module, to this, i 
 
 ## :warning: Prerequisites
 
-In order to use this bot on your computer, you should already have Python installed in your computer, the libriraties mentioned above, Geckodriver and the Firefox web browser as well.
+In order to use this bot on your computer, you should already have Python installed in your computer, the libraries mentioned above, [Geckodriver](https://github.com/mozilla/geckodriver/releases) and the [Firefox](https://www.mozilla.org/pt-BR/firefox/new/) web browser as well.
 
 ## :information_source: How To Use
 You can download the script if you want to and run in your computer, or simply copy some parts (open source priveleges). Just follow the instructions inside the script and you are going to have the expected result.
