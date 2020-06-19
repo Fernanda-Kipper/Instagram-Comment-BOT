@@ -1,5 +1,5 @@
 # Selenium web BOT
-This bot has the o objective to train the usages of Selenium Module, to this, i made him to follow up the all the accounts of an main account (we pass the link of the main account to him, and after successfully login, he follows all the followers of this account).It was developed with the following technologies:
+This bot has the o objective to train the usages of Selenium Module, to this, i made him to follow up the all the accounts of an main account -- it works with instagram, but you can reformulate it to do this in whatever social network you want-- To do this, we pass as an input the link of the main account to him, and after successfully login, he follows all the followers of this account. It was developed with the following technologies:
 
 [Python](https://www.python.org/)
 
